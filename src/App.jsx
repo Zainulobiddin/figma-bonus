@@ -22,90 +22,101 @@ import computer from "#/computer.svg";
 import tim from "#/tim.svg";
 import CardProduct, { Star } from "./components/card/card";
 import Footer from "./components/footer/footer";
-// import
+import product1 from '#/product1.svg'
+import product2 from '#/product2.svg'
+import product3 from '#/product3.svg'
+import product4 from '#/product4.svg'
+import product5 from '#/product5.svg'
+import product6 from '#/product6.svg'
+import product7 from '#/product7.svg'
+import product8 from '#/product8.svg'
+import product9 from '#/product9.svg'
+import product10 from '#/product10.svg'
+import product11 from '#/product11.svg'
+import product12 from '#/product12.svg'
 
 const App = () => {
   const products = [
     {
       id: 1,
-      src: "./assets/product1.svg",
+      src: product1,
       company: "Sony",
       title: "4K TV Game Mini Arcade Rocker Console 32GB/64GB",
       price: "$29.80",
     },
     {
       id: 2,
-      src: "./assets/product2.svg",
+      src: product2,
       company: "Google",
       title: "Cancelling Headset Music Sport Deep Bass",
       price: "$39.80",
     },
     {
       id: 3,
-      src: "./assets.product3.svg",
+      src: product3,
       company: "Apple",
       title: "T500BT Original Wireless Bluetooth Headphone",
       price: "$69.80",
     },
     {
       id: 4,
-      src: "./assets.product4.svg",
+      src: product4,
       company: "Toshiba",
       title: "Black Walnut Wood & Aluminum Headphone Stand",
       price: "$70.80",
     },
     {
       id: 5,
-      src: "./assets/product1.svg",
+      src: product5,
       company: "Sony",
       title: "4K TV Game Mini Arcade Rocker Console 32GB/64GB",
       price: "$29.80",
     },
     {
       id: 6,
-      src: "./assets/product2.svg",
+      src: product6,
       company: "Google",
       title: "Cancelling Headset Music Sport Deep Bass",
       price: "$39.80",
     },
     {
       id: 7,
-      src: "./assets.product3.svg",
+      src: product7,
       company: "Apple",
       title: "T500BT Original Wireless Bluetooth Headphone",
       price: "$69.80",
     },
     {
       id: 8,
-      src: "./assets.product4.svg",
+      src: product8,
       company: "Toshiba",
       title: "Black Walnut Wood & Aluminum Headphone Stand",
       price: "$70.80",
     },
     {
       id: 9,
-      src: "./assets/product1.svg",
+      src: product9,
       company: "Sony",
       title: "4K TV Game Mini Arcade Rocker Console 32GB/64GB",
       price: "$29.80",
     },
     {
       id: 10,
-      src: "./assets/product2.svg",
+      src: product10,
       company: "Google",
       title: "Cancelling Headset Music Sport Deep Bass",
       price: "$39.80",
     },
     {
       id: 11,
-      src: "./assets.product3.svg",
+      src: product11,
       company: "Apple",
       title: "T500BT Original Wireless Bluetooth Headphone",
       price: "$69.80",
     },
     {
       id: 12,
-      src: "./assets.product4.svg",
+      src: product12,
       company: "Toshiba",
       title: "Black Walnut Wood & Aluminum Headphone Stand",
       price: "$70.80",
