@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+ul {
+  display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #101828;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+@media (max-width: 620px) {
+  ul {
+    display: none;
+  }
+}
+
+
+@media (max-width: 992px) {
+    ul {
+        gap: 10px;
+    }
+}

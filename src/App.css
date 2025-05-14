@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.WorkSans {
+  font-family: "Work Sans", sans-serif;
+}
+.Merriweather {
+  font-family: "Merriweather", serif;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 60%;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #101828;
+}
+.ipsum {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 26px;
+  color: #98a2b3;
+}
+.lorem {
+  color: #475467;
+}
+.divImg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.img2 {
+  position: absolute;
+  top: 220px;
+  left: 150px;
+}
+.nums {
+  display: flex;
+  gap: 50px;
+}
+.num1 {
+  display: flex;
+  gap: 10px;
+}
+.btn2 {
+  display: flex;
+  gap: 7px;
+}
+.divProducts {
+  display: flex;
+  gap: 20px;
+}
+.allProducts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+.cardOfMap {
+  padding: 24px 15px;
+  border: 1px solid #e4e7ec;
+  border-radius: 6px;
+  width: 20%;
+  margin: auto;
+}
+.imgOfCard {
+  width: 90%;
+  height: 160px;
+  margin: auto;
+}
+.add {
+  padding: 6px 15px;
+  background-color: #bee1e6;
+  border-radius: 6px;
+  color: #006d77;
+  font-weight: 500;
+}
+.main3 {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.number {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e7ec;
+}
+.computer {
+  width: 475px;
+  border: 1px solid #d1dae8;
+  padding: 39px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 6px;
+}
+.comp {
+  display: flex;
+  gap: 13px;
+  padding: 25px 17px;
+  border: 1px solid #d1dae8;
+  border-radius: 6px;
+  width: 285px;
+}
+.computer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.popular {
+  display: flex;
+  justify-content: space-between;
+}
+.colors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.apple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #006D77;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+
+}
+input {
+  width: 360px;
+  padding: 20px 0;
+  border-radius: 53px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+@media (max-width: 600px) {
+  .img2,
+  .btn2 {
+    display: none;
+  }
+  .main {
+    flex-direction: column-reverse;
+    margin: 70px auto;
+  }
+  .left {
+    width: 90%;
+    margin: auto;
+    gap: 15px;
+  }
+  h1 {
+    margin: -10px auto;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .img1 {
+    width: 90%;
+  }
+  .nums {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .divProducts {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .allProducts {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .cardOfMap {
+    width: 100%;
+  }
+  .popular {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .computer {
+    width: 80%;
+    margin: auto;
+  }
+  .comp {
+    width: 85%;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .main {
+    flex-direction: column;
+    margin: 60px auto;
+  }
+  .divImg {
+    padding: 20px;
+  }
+  h1 {
+    margin: -8px auto;
+  }
+  .divProducts {
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+  }
+  .cardOfMap {
+    width: 33%;
+  }
+    .popular {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .computer {
+    width: 80%;
+    margin: auto;
+  }
+  .comp {
+    width: 82%;
+    margin: auto;
+  }
+}
+
